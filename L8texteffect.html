@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>L47 Text Effect </title>
+</head>
+<style type="text/css">
+	body{
+		font-family: sans-serifs;
+		background-color: #272727;
+		height: 100vh;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		margin: 0;
+		overflow: hidden;
+
+	}
+
+	ul{
+		list-style: none;
+
+		padding: 0;
+		margin: 0;
+
+		display: flex;
+	}
+
+	ul li{
+		color: #fff;
+		font-size: 100px;
+		letter-spacing: 10px;
+		font-weight: bold;
+
+		transition: all 2s;
+	}
+
+	ul:hover li{
+		transform: rotate(45deg) translateY(-200px);
+		filter: blur(10px);
+		opacity: 0;
+	}
+
+	li:nth-child(1){
+		transition-delay: 0s;
+	}
+	li:nth-child(2){
+		transition-delay: 0.4s;
+	}
+	li:nth-child(3){
+		transition-delay: 0.8s;
+	}
+	li:nth-child(4){
+		transition-delay: 1.2s;
+	}
+	li:nth-child(5){
+		transition-delay: 1.6s;
+	}
+	li:nth-child(6){
+		transition-delay: 2s;
+	}
+	li:nth-child(7){
+		transition-delay: 2.4s;
+	}
+	li:nth-child(8){
+		transition-delay: 2.8s;
+	}
+	li:nth-child(9){
+		transition-delay: 3.2s;
+	}
+	li:nth-child(10){
+		transition-delay: 3.6s;
+	}
+</style>
+<body>
+
+	<!-- <ul>
+		<li>D</li>
+		<li>a</li>
+		<li>t</li>
+		<li>a</li>
+		<li>l</li>
+		<li>a</li>
+		<li>n</li>
+		<li>d</li>
+	</ul> -->
+
+	<ul>
+		<li>H</li>
+		<li>e</li>
+		<li>l</li>
+		<li>l</li>
+		<li>o</li>
+		<li>W</li>
+		<li>o</li>
+		<li>r</li>
+		<li>l</li>
+		<li>d</li>
+	</ul>
+
+</body>
+</html>
